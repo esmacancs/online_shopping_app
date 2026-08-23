@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: online-shop
-  namespace: online-shop
+  namespace: online-shop-prod
   labels:
     app: online-shop
 spec:
