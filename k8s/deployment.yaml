@@ -18,10 +18,9 @@ spec:
       containers:
         - name: online-shop
           # Image built and pushed by the GitHub Actions workflow to GHCR.
-          # Replace "esmacancs/online_shopping_app" with your <owner>/<repo>.
           # Pin to an immutable SHA tag for production, e.g.:
           #   ghcr.io/esmacancs/online_shopping_app:sha-<commit-sha>
-          image: ghcr.io/esmacancs/sarma/online_shop:v1
+          image: ghcr.io/esmacancs/online_shopping_app:latest
           ports:
             - containerPort: 80
           livenessProbe:
