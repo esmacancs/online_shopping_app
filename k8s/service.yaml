@@ -6,7 +6,7 @@ metadata:
   labels:
     app: online-shop
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: online-shop
   ports:
