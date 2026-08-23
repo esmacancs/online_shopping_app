@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: online-shop
-        image: online_shop:latest
+        image: ghcr.io/esmacancs/sarma/online_shop:v1
         imagePullPolicy: Never
         ports:
         - containerPort: 80
