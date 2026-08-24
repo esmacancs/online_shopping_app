@@ -15,6 +15,8 @@ spec:
       labels:
         app: online-shop
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
         - name: online-shop
           # Image built and pushed by the GitHub Actions workflow to GHCR.
