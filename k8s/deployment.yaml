@@ -20,7 +20,7 @@ spec:
           # Image built and pushed by the GitHub Actions workflow to GHCR.
           # Pin to an immutable SHA tag for production, e.g.:
           #   ghcr.io/esmacancs/online_shopping_app:sha-<commit-sha>
-          image: docker pull ghcr.io/esmacancs/sarma/online_shop:v1
+          image: ghcr.io/esmacancs/sarma/online_shop:v1
           ports:
             - containerPort: 80
           livenessProbe:
